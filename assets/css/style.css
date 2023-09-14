@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background: url(../img/bg.png) no-repeat center center fixed;
+    color: #fff;
+}
+
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: rgba(145, 144, 144, 0.349);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+header h1 {
+    margin-left: 30px;
+}
+
+header,
+nav ul {
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 7px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+nav ul li:hover {
+    background-color: #8f8787d3;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.presentation h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.text-presentation {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.text-presentation h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.text-presentation h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+a:hover {
+    color: #fff;
+}
+
+span.specialWord {
+    color: red;
+    font-weight: bold;
+}
+
+.sections {
+    background-color: #443939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.sections h1 {
+    margin-bottom: 20px;
+}
+
+.links {
+    margin: 5px;
+    width: 15%;
+}
+
+.links2 {
+    margin: 5px;
+    width: 15%;
+}
+
+.school {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 15%;
+}
+
+.school li {
+    margin: 10px;
+}
+
+.jobs {
+    margin-bottom: 60px;
+    margin-left: 25px;
+    width: 15%;
+}
+
+.jobs li {
+    margin-bottom: 15px;
+}
+
+.hobiesAndInterests {
+    margin: 100px;
+}
+
+.hobiesAndInterests ul {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #4b3d3d;
+}
+
+tr:nth-child(even) {
+    background-color: #161616;
+}
+
+.nested-list li {
+    margin-left: 35px;
+}
+
+.quote {
+    position: absolute;
+    margin-top: 500px;
+}
